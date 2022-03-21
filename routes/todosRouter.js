@@ -45,16 +45,4 @@ todosRouter.route('/update')
     })
 });
 
-
-// commentsRouter.route('/changeComment')
-
-// .post(Verify.verifyOrdinaryUserWithAppVersion, function(req, res, next){
-//     Comments.findByIdAndUpdate((req.body._id), req.body.data, (err, changedCmm) => {
-//         if(err) {
-//             console.log(err);
-//         }
-//         res.json(changedCmm)
-//     })
-// });
-
 module.exports = todosRouter;
